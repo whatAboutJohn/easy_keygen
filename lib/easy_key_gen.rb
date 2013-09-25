@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 ############## This part will be deleted ####################
 
 def generate_random_key arr
@@ -23,7 +25,26 @@ module EasyKeyGen
 
 	extend self
 
+	ConfigStruct = Struct.new (
+		:size,
+		:amount,
+		:letters,
+		:encryption
+	)
+	
 	def size_of_word
+
+	end
+
+	options = {}
+
+	optparse = OptionParser.new do |opts|
+
+		opts.on '-h', '--help', '/?' do
+			# Help screen
+		end
+
+		opts.on ''
 
 	end
 
@@ -32,7 +53,7 @@ end
 __END__
 
 Options include:
-  - Size of words
-  - Amount of letters
-  - Letters and/or numbers
+  - Size of words	-s --size
+  - Amount of letters -a --amount
+  - Letters and/or numbers -i --include
 
