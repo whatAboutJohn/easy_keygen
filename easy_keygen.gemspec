@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['john@pixelhipsters.com']
   spec.description   = %q{Generate random numbers easily}
   spec.summary       = %q{Generate random numbers easily with Easy_Keygen}
-  spec.homepage      = 'https://github.com/Alaude/Easy-Key-Gen'
+  spec.homepage      = 'https://github.com/Alaude/easy_keygen'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
