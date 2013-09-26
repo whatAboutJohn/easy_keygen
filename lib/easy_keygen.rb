@@ -16,14 +16,14 @@
 
 require 'optparse'
 require 'ostruct'
-require 'easy_key_gen/options'
+require 'easy_keygen/options'
 
 module EasyKeygen
 
 	extend self
 	
-	def size_of_word
-
+  def size_of_word(size = ARG_OPTIONS[:size])
+    size
 	end
 
 	ARG_OPTIONS = {
