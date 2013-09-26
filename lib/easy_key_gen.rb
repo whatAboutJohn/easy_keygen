@@ -20,13 +20,6 @@ require 'ostruct'
 module EasyKeyGen
 
 	extend self
-
-	# ConfigStruct = Struct.new {
-	# 	:size => 4,
-	# 	:amount => 4,
-	# 	:include => 'both',
-	# 	:encryption
-	# }
 	
 	def size_of_word
 
