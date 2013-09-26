@@ -1,4 +1,4 @@
-# EasyKeygen [![Build Status](https://travis-ci.org/Alaude/easy_keygen.png?branch=master)](https://travis-ci.org/Alaude/easy_keygen) [![Code Climate](https://codeclimate.com/github/Alaude/easy_keygen.png)](https://codeclimate.com/github/Alaude/easy_keygen)
+# EasyKeygen [![Build Status](https://travis-ci.org/Alaude/easy_keygen.png?branch=master)](https://travis-ci.org/Alaude/easy_keygen) [![Gem Version](https://badge.fury.io/rb/easy_keygen.png)](http://badge.fury.io/rb/easy_keygen) [![Dependency Status](https://gemnasium.com/Alaude/easy_keygen.png)](https://gemnasium.com/Alaude/easy_keygen) [![Code Climate](https://codeclimate.com/github/Alaude/easy_keygen.png)](https://codeclimate.com/github/Alaude/easy_keygen)
 
 A Ruby Gem and Command-Line Application Key Generator with encryption options.
 
